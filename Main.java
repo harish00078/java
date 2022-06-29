@@ -38,7 +38,7 @@ public class Main{
         /*
          * rules for constructing name of variables in java
          * 1. can contain digits, underscore, dollar signs, letters
-         * 2. should begin with a letter, $ or _
+         * 2. we hould begin with a letter, and then we can use $ or _
          * 3. java is case sensitive language which means that harry and Harry are two different variables altogether        
          * 4. should not contain whitespaces -> already know about \n ,\t ,\r and space.
          * 5. you cannot use reserved keywords from java. example of the reserved keyword in java is 
@@ -79,7 +79,7 @@ public class Main{
         //byte u = 156; (we did not store the 150 in byte because byte have limitation of range -128 to +127)
         double d = 45.64545456d;
         System.out.println(d);
-        char character = 'b';
+        char character = 'h';
         System.out.println(character);
         //System.out.println(u);
         // soon other types of primitive data types  are also working like byte.
