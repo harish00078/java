@@ -1,5 +1,6 @@
 public class Main{
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         //write code here
         System.out.println("hello world"); // println = ln represent here to jump on next line 
         System.out.println("my name is harish");
