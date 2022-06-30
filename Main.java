@@ -85,6 +85,71 @@ public class Main{
         // soon other types of primitive data types  are also working like byte.
 
 
+        /*
+         *  Operators in java:
+         * 
+         * operand + operators + operand = result.
+         *  ||          ||          ||
+         *  4           +            7     = 11
+         * 
+         * Types of operators in java:
+         * 1.> arithmetic operators
+         * 2.> unary operators 
+         * 3.> assignment operators
+         * 4.> logical operators
+         * 5.> comparison operators
+         */
+        
+        //arithmetic operators:
+        int num1 = 45, num2 = 78;
+        // float num1 = 45, num2 = 78; we can use float if we want the result of decimal numbers.
+        num1 += 3;
+        num2 -= 8;
+        System.out.print("the value of the num1 + num2 is ");
+        System.out.println(num1 + num2);
+
+        System.out.print("the value of the num1 - num2 is ");
+        System.out.println(num1 - num2);
+
+        System.out.print("the value of the num1 * num2 is ");
+        System.out.println(num1 * num2);
+
+        System.out.print("the value of the num1 / num2 is ");
+        System.out.println(num1 / num2);
+
+        System.out.print("the value of the num1 % num2 is ");
+        System.out.println(num1 % num2);   // % this sign is known as  module .it is used for finding a remainder of values or operands
+
+        //unary operators:. Unary Operators: Unary operators need only one operand. They are used to increment, decrement or negate a value. 
+        
+        // increment or decrement operators.
+        // increment operators: used for incrementing the value by 1.
+        System.out.println(num1++);
+        System.out.println(++num1);
+        // decrement operators: used for decrementing the value by 1. 
+        System.out.println(num1--);
+        System.out.println(--num1);
+
+      // assignment operators: Assignment operator is used to assigning a value to any variable.if we want to add a more value in the particular variable value. there we use the assignment operaotors.
+      
+      // example of the assignment operators:
+      // int num1 = 45; if we want to add more value in this variable then we use the assignment operators.
+      // we can add more value in this way:
+      /*
+       * int num1 = 45,
+       * num1 += 3;
+       * this will gave me the value of the num1 is 48.
+       * In this we can also use other assignment operators.
+       */
+      /*
+       * types of the assignment operators:
+        1.> +=, for adding left operand with right operand and then assigning it to the variable on the left.
+        2.> -=, for subtracting right operand from left operand and then assigning it to the variable on the left.
+        3.> *=, for multiplying left operand with right operand and then assigning it to the variable on the left.
+        4.> /=, for dividing left operand by right operand and then assigning it to the variable on the left.
+        5.> %=, for assigning modulo of left operand by right operand and then assigning it to the variable on the left.
+       */
+
 
     }
 }
